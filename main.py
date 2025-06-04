@@ -6,7 +6,6 @@ import os
 import time
 from termcolor import colored
 
-# 🔥 ASCII Art Banner
 BANNER = r"""
 
                                                   __                
