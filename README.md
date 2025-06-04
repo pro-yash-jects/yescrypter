@@ -36,8 +36,8 @@ Yescrypt is built on SHA-256, HMAC, and PBKDF2 approved primitives, making it NI
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/yescrypt-cli-hasher.git
-   cd yescrypt-cli-hasher
+   git clone https://github.com/pro-yash-jects/yescrypter.git
+   cd yescrypter
    ```
 
 2. **Install required Python packages:**
@@ -52,7 +52,7 @@ Yescrypt is built on SHA-256, HMAC, and PBKDF2 approved primitives, making it NI
 
 3. **Make the script executable (Linux/macOS):**
    ```bash
-   chmod +x yescrypt_hasher.py
+   chmod +x main.py
    ```
 
 ### System Compatibility
@@ -65,7 +65,7 @@ Yescrypt is built on SHA-256, HMAC, and PBKDF2 approved primitives, making it NI
 ### Basic Syntax
 
 ```bash
-python3 yescrypt_hasher.py <word> [options]
+python3 main.py <word> [options]
 ```
 
 ### Arguments
@@ -84,7 +84,7 @@ python3 yescrypt_hasher.py <word> [options]
 
 #### Basic Password Hashing
 ```bash
-python3 yescrypt_hasher.py "mypassword123"
+python3 main.py "mypassword123"
 ```
 
 **Output:**
@@ -98,17 +98,17 @@ python3 yescrypt_hasher.py "mypassword123"
 
 #### High-Security Configuration
 ```bash
-python3 yescrypt_hasher.py "sensitive_password" --n 65536 --r 16 --p 2 --dklen 128
+python3 main.py "sensitive_password" --n 65536 --r 16 --p 2 --dklen 128
 ```
 
 #### Custom Salt for Testing
 ```bash
-python3 yescrypt_hasher.py "testpassword" --salt "deadbeefcafebabe1234567890abcdef"
+python3 main.py "testpassword" --salt "deadbeefcafebabe1234567890abcdef"
 ```
 
 #### Help Information
 ```bash
-python3 yescrypt_hasher.py --help
+python3 main.py --help
 ```
 
 ### Security Parameters Guide
